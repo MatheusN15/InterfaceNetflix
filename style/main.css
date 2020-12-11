@@ -43,7 +43,7 @@ header nav a:hover{
 
 /*Filme principal*/
 
-.filme-principal{
+.filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capaPN.jpg');
     height: 400px;
@@ -57,6 +57,8 @@ header nav a:hover{
 .titulo{
     margin-left: 10px;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 12%;
 }
 
 .sinopse{
@@ -64,3 +66,27 @@ header nav a:hover{
     margin-bottom: 40px;
     margin-left: 10px;
 }
+.botao{
+    border: none;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 10px;
+    margin-left: 10%;
+    font-size: 12px;
+    transition: .4s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.box-filmes{
+    margin-top: 5px;
+    height: 40%;
+    width: 40%;
+    display: block;
+}
+
